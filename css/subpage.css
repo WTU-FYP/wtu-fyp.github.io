@@ -1,0 +1,390 @@
+body {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+
+
+
+
+/*SHOW PAGE*/
+/*SHOW PAGE*/
+/*SHOW PAGE*/
+/*SHOW PAGE*/
+
+.showInfo {
+	position: absolute;
+	width: 800px;
+}
+
+.portraitDiv {
+	position: relative;
+	width: 48%;
+	/* Center item center vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.portraitImg {
+	width: 100%;
+}
+
+.portraitName {
+	position: absolute;
+	bottom: 17px;
+	color: white;
+	font-size: 16px;
+	transform: translateX(-10px);
+}
+
+.projectDiv {
+	position: absolute;
+	top: 50%;
+	left: 48%;
+	transform: translateY(-50%);
+	display: inline-block;
+	width: 62%;
+	padding: 20px 10px;
+}
+
+.showProjectName {
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.projectDetail {
+	color: white;
+	font-size: 18px;
+}
+
+.showSlideBg {
+	position: absolute;
+	bottom: 0px;
+	z-index: -1;
+}
+
+.notice {
+	width: 12px;
+	height: 30px;
+	border: solid 1px white;
+	border-radius: 6px;
+	position: absolute;
+	bottom: 100px;
+	/* Center item center vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+@keyframes wheelMove {
+	0% {
+		transform: translateY(0px);
+	}
+	20% {
+		transform: translateY(3px);
+	}
+	40% {
+		transform: translateY(6px);
+	}
+	60% {
+		transform: translateY(8px);
+	}
+	80% {
+		transform: translateY(10px);
+	}
+	100% {
+		transform: translateY(10px);
+	}
+}
+
+.wheel {
+	width: 2px;
+	height: 8px;
+	border: solid 1px white;
+	border-radius: 1px;
+	background-color: white;
+	position: absolute;
+	top: 4px;
+	animation: wheelMove 3s linear infinite alternate;
+}
+
+@keyframes backArrowBorder {
+	0% {}
+	60% {
+		background: white;
+	}
+	100% {
+		background: white;
+	}
+}
+
+.backArrowBorder {
+	width: 18px;
+	height: 18px;
+	border: solid 2px white;
+	border-radius: 50%;
+	display: inline-block;
+	animation: backArrowBorder 6s linear infinite alternate;
+	position: absolute;
+	top: 50%;
+	left: -40px;
+	transform: translateY(-50%);
+	/* Center item center vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+@keyframes backArrow {
+	0% {
+		color: white;
+	}
+	39.9% {
+		color: white;
+	}
+	40% {
+		color: black;
+	}
+	60% {
+		color: black;
+	}
+	100% {
+		color: black;
+	}
+}
+
+.backArrow {
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	animation: backArrow 6s linear infinite alternate;
+	transform: translateY(-1px) translateX(-1px);
+}
+
+@keyframes arrowMove {
+	0% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 0.75;
+	}
+	40% {
+		opacity: 0.5;
+	}
+	60% {
+		opacity: 0.25;
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.noticeArrow {
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	bottom: -17px;
+	animation: arrowMove 3s linear infinite alternate;
+}
+
+
+
+
+
+/*INTERVIEW PAGE*/
+/*INTERVIEW PAGE*/
+/*INTERVIEW PAGE*/
+/*INTERVIEW PAGE*/
+/*INTERVIEW PAGE*/
+/*INTERVIEW PAGE*/
+
+.interviewBg {
+	height: 80%;
+	position: absolute;
+	bottom: 0px;
+	transform: translateX(5%);
+	z-index: -99;
+}
+.interviewNavDiv{
+	list-style: none;
+	position: absolute;
+	width: 31px;
+	height: 510px;
+	margin: 0px;
+	padding: 0px 5px;
+	transform: translateX(-400px);
+	overflow: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.interviewNav {
+	list-style: none;
+	position: absolute;
+	margin: 0px;
+	padding: 0px 5px;
+	transition: all 0.5s;
+}
+
+.interviewNav li {
+	padding: 30px 5px;
+	transition: all 0.5s;
+}
+
+
+ .interviewNav li a {
+	text-decoration: none;
+	color: grey;
+	font-size: 18px;
+	transition: all 1s;
+}
+.interviewNav .active a{
+	color: white;
+}
+.interviewNav li a:hover{
+	color: white !important;
+}
+.mouseenter {
+	color: grey;
+}
+
+
+.interviewDiv{
+	position: absolute;
+	width: 600px;
+}
+.interviewTitle{
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 6px;
+}
+.interviewIntro{
+	font-size: 14px;
+	color: #bdbdbd;
+	width: 86%;
+	line-height: 28px;
+}
+.interviewerDiv{
+	margin-top: 28px;
+	position: relative;
+}
+.interviewerDiv img{
+	width: 34px;
+	border-radius:25% 50% 50% 50% ;
+	vertical-align: bottom;
+	margin-left: 10px;
+}
+.interviewerName{
+	font-size: 14px;
+	color: #bdbdbd;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+.interviewerDetail{
+	font-size: 14px;
+	color: #bdbdbd;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	right: 30px;
+	bottom: 0px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.interviewerDetail:hover{
+	color: white;
+}
+
+
+.interviewDetailDiv{
+	position: absolute;
+	width: 800px;
+	transform: translateX(100px);
+}
+.interviewDetailTitle{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 6px;
+}
+.interviewerSpeakDiv{
+	margin-top: 28px;
+	position: relative;
+	width: auto;
+	display: inline-block;
+	text-align: center;
+}
+.interviewerSpeakDiv img{
+	width: 60px;
+	border-radius:25% 50% 50% 50% ;
+}
+.interviewerDetailName{
+	font-size: 22px;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+.words{
+	font-size: 20px;
+	color: white;
+	padding: 0px 0px 0px 20px;
+	margin: 28px 0px 0px 0px;
+	display: inline-block;
+	width: 720px;
+	vertical-align: top;
+}
