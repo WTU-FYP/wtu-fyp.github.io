@@ -64,13 +64,13 @@ $(document).ready(function() {
 			leaveSound.volume = 0.4;
 			clickSound.muted = false;
 			clickSound.volume = 0.4;
-			$(".musicBtn").attr("src", "img/musicStop.png");
+			$(".musicBtn").attr("src", "img/musicPlay.png");
 			
 		} else if(slideSound.muted === false){
 			slideSound.muted=true;
 			leaveSound.muted=true;
 			clickSound.muted=true;
-			$(".musicBtn").attr("src", "img/musicPlay.png");
+			$(".musicBtn").attr("src", "img/musicStop.png");
 		}
 
 	});
